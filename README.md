@@ -31,11 +31,17 @@ No account, no sign-up, no "one file free".
 
 | Component | What it does |
 |---|---|
-| **Audio analysis** | Tempo and key detection: onset-energy envelope, autocorrelation tempo estimation, chroma vectors mapped to MIDI note classes. Runs in a Web Worker so the UI stays responsive. Not a library wrapper. |
+| **Audio analysis** | Tempo and key detection: onset-energy envelope, autocorrelation tempo estimation, chroma vectors mapped to MIDI note classes. Runs in a Web Worker so the UI stays responsive. Not a library wrapper. Published on its own as [`bpm-key-detect`](https://github.com/Utilumo/bpm-key-detect). |
 | **ZIP writer** | ~150 lines. Hand-rolled CRC-32 table, stored entries, container assembled by hand. Used by 11 tools for batch downloads. No zip dependency. |
 | **robots.txt matcher** | Longest-match precedence, wildcards, `$` anchoring, per-user-agent group selection. |
 | **CSP parser** | Directive analysis and risk flagging. |
 | **Redaction patterns** | Email, URL, phone, IP and card-like number detection for the text redactor. |
+
+## Released on its own
+
+| Repo | What it is |
+|---|---|
+| [`bpm-key-detect`](https://github.com/Utilumo/bpm-key-detect) | The tempo and key engine above, extracted unchanged. Zero dependencies, browser and Node, 18 tests. MIT. |
 
 ## What we use
 
