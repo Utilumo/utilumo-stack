@@ -1,7 +1,7 @@
-# browser-local-stack
+# Utilumo Stack
 
 **The libraries and browser APIs behind [Utilumo](https://utilumo.com) — doing real
-file work with no server.**
+file work in the browser with no server.**
 
 Utilumo is ~174 browser tools. Converting video, analysing audio, manipulating
 PDFs, running SQL. All of it happens in the tab.
@@ -142,4 +142,4 @@ where the tool itself is rare.
 ---
 
 Utilumo itself is closed source. This repo documents the stack; questions are
-welcome in [issues](https://github.com/Utilumo/browser-local-stack/issues).
+welcome in [issues](https://github.com/Utilumo/utilumo-stack/issues).
